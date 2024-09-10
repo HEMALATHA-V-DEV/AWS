@@ -5,14 +5,11 @@ Overview: IAM is a web service that helps you securely control access to AWS ser
 
 # Key Components:
 
-Users: Entities that represent individual people or services needing access.
-Groups: Collections of users with shared permissions.
-Roles: IAM identities with specific permissions that can be assumed by users or AWS services.
-Policies: Documents that define permissions, written in JSON.
+• Users: Entities that represent individual people or services needing access.
+• Groups: Collections of users with shared permissions.
+• Roles: IAM identities with specific permissions that can be assumed by users or AWS services.
+• Policies: Documents that define permissions, written in JSON.
 
-# Features:
-Fine-Grained Permissions: Allows specific permissions for AWS resources.
-Multi-Factor Authentication (MFA): Adds an extra layer of security.
 
 # IAM – Password Policy
 
