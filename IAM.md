@@ -1,11 +1,18 @@
 
 # Identity and Access Management, Global service
+Overview: IAM is a web service that helps you securely control access to AWS services and resources for your users.
 
-```
-• Users : are people within your organization, and can be grouped
-• Groups : only contain users, not other groups
-• Roles : Some AWS service will need to perform actions on your behalf , we will assignpermissions to AWS services with IAM Roles
-```
+
+# Key Components:
+
+Users: Entities that represent individual people or services needing access.
+Groups: Collections of users with shared permissions.
+Roles: IAM identities with specific permissions that can be assumed by users or AWS services.
+Policies: Documents that define permissions, written in JSON.
+
+# Features:
+Fine-Grained Permissions: Allows specific permissions for AWS resources.
+Multi-Factor Authentication (MFA): Adds an extra layer of security.
 
 # IAM – Password Policy
 
@@ -48,20 +55,6 @@ Multi Factor Authentication - MFA
    • You can use this information to revise your policies.
 ```
 
-# IAM Guidelines & Best Practices
-
-```
-• Don’t use the root account except for AWS account setup
-• One physical user = One AWS user
-• Assign users to groups and assign permissions to groups
-• Create a strong password policy
-• Use and enforce the use of Multi Factor Authentication (MFA)
-• Create and use Roles for giving permissions to AWS services
-• Use Access Keys for Programmatic Access (CLI / SDK)
-• Audit permissions of your account using IAM Credentials Report & IAM
-Access Advisor
-• Never share IAM users & Access Keys
-```
 
 # IAM Section – Summary
 
